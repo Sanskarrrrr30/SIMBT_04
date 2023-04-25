@@ -1,0 +1,80 @@
+/* https://api.openweathermap.org/data/2.5/weather?q=London&appid={API key} */
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+main{
+    background-color: #f30000;
+    height: 96vh;
+}
+.container{
+    background-color: white;
+    width: 270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0px;
+    position: relative;
+    border-radius: 20px;
+    margin: auto;
+    min-height: 40px;
+    transition: all 0.5s linear;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+input{
+
+    padding: 10px 0px 7px 10px;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.432);
+    outline: none;
+    
+}
+button{
+    background-color: transparent;
+    border-color:2px solid rgba(0, 0, 0, 0.432) ;
+    padding: 7px;
+}
+#Temp{
+    text-align: center;
+    font-size: 1.7rem;
+}
+.feels{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.4rem;
+}
+img{
+   
+    background-color: rgb(175, 175, 175);
+    border-radius: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.wind{
+    text-align: center;
+    margin: 8px;
+    font-size: 1.2rem;
+}
+h1{
+    text-align: center;
+    padding: 100px;
+    color: white;
+}
+.weather{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    text-align: center;
+    
+}
+@media(max-width: 500px){
+    input{
+        margin-left: 20px;
+    }
+}
